@@ -4,8 +4,6 @@
 
 In this README.md file, we will document the AWS infrastructure for the Safecast project. This documentation will serve as a reference for the various AWS services and resources used in the project.
 
-## Table of Contents
-...
 # Documenting AWS Infrastructure
 
 In this README.md file, we will document the AWS infrastructure for the Safecast project. This documentation will serve as a reference for the various AWS services and resources used in the project.
