@@ -20,10 +20,13 @@ In this README.md file, we will document the AWS infrastructure for the Safecast
 
 ## Introduction
 
-The Safecast project utilizes various AWS services to collect, store, and analyze radiation data from around the world. This documentation provides an overview of the AWS infrastructure used in the project and serves as a guide for developers and administrators.
+The Safecast project utilizes various AWS services to collect, store, and analyze radiation data worldwide. This documentation provides an overview of the AWS infrastructure used in the project and serves as a guide for developers and administrators.
 
 ## Services and Products
-This is the list of Safecast Services which primarily run on the AWS Cloud.
+This is the list of Safecast Services primarily running on the AWS Cloud.
+1) The Safecast API
+2) Grafana/Kibana Dashboards
+3) 
 
 ## Architecture Overview
 
