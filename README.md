@@ -1,4 +1,4 @@
-# Safecast-AWS-Documentation
+# Safecast-AWS-Documentation 
 
 # Documenting AWS Infrastructure
 
@@ -49,7 +49,8 @@ The Safecast AWS infrastructure leverages several AWS services, including but no
 - Amazon CloudWatch for monitoring and logging
 - Amazon VPC for network isolation
 - Amazon IAM for access control
-
+- Elastic BeanStalk to handle Public sites and Safecast Data uploads
+- 
 For a complete list of AWS services used in the Safecast project, refer to the project's documentation.
 
 ## Infrastructure Diagram
