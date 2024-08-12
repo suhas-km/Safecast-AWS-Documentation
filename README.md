@@ -38,13 +38,13 @@ The architecture of the Safecast AWS infrastructure is designed to be scalable, 
 
 The Safecast AWS infrastructure leverages several AWS services, including but not limited to:
 
-- Amazon S3 for data storage
+- Amazon IAM for access control
 - Amazon EC2 for virtual server instances
 - Amazon RDS for managed databases
 - Amazon CloudWatch for monitoring and logging
-- Amazon IAM for access control
-- Elastic BeanStalk to handle Public sites and Safecast Data uploads
-- 
+- Elastic Beanstalk to handle Public sites and Safecast Data uploads
+- Amazon S3 for data storage
+
 For a complete list of AWS services used in the Safecast project, refer to the project's documentation.
 
 ## Infrastructure Diagram
@@ -86,7 +86,7 @@ are implemented.
 
 Security is a top priority for the Safecast AWS infrastructure. Measures such as:
 
-- Network isolation using VPCs and security groups
+<!-- - Network isolation using VPCs and security groups -->
 - Encryption of data at rest and in transit
 - Identity and access management using IAM
 - Regular security assessments and audits
@@ -107,4 +107,4 @@ For more detailed information on the Safecast AWS infrastructure, refer to the f
 
 - [Safecast Project Documentation](https://safecast.org/)
 - [AWS Documentation](https://docs.aws.amazon.com/)
-- [Safecast Upload APIs](https://safecast.org/)
+- [Safecast Upload APIs](https://github.com/Safecast)
