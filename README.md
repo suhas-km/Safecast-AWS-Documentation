@@ -5,12 +5,6 @@
 In this README.md file, we will document the AWS infrastructure for the Safecast project. This documentation will serve as a reference for the various AWS services and resources used in the project.
 
 ## Table of Contents
-...
-# Documenting AWS Infrastructure
-
-In this README.md file, we will document the AWS infrastructure for the Safecast project. This documentation will serve as a reference for the various AWS services and resources used in the project.
-
-## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Architecture Overview](#architecture-overview)
@@ -25,7 +19,7 @@ In this README.md file, we will document the AWS infrastructure for the Safecast
 
 ## Introduction
 
-The Safecast project utilizes various AWS services to collect, store, and analyze radiation data from around the world. This documentation provides an overview of the AWS infrastructure used in the project and serves as a guide for developers and administrators.
+The Safecast project utilizes various AWS services to collect, store, and analyze radiation data from around the world. This documentation provides an overview of the AWS infrastructure used in the project and serves as a guide for developers and open source contributors to dive deeper into the architecture design.
 
 ## Architecture Overview
 
@@ -44,19 +38,18 @@ The Safecast AWS infrastructure leverages several AWS services, including but no
 - Amazon S3 for data storage
 - Amazon EC2 for virtual server instances
 - Amazon RDS for managed databases
-- Amazon Lambda for serverless computing
 - Amazon CloudWatch for monitoring and logging
-- Amazon VPC for network isolation
 - Amazon IAM for access control
 
 For a complete list of AWS services used in the Safecast project, refer to the project's documentation.
 
 ## Infrastructure Diagram
 
-The following diagram illustrates the high-level architecture of the Safecast AWS infrastructure:
+The following diagram illustrates the high-level architecture of the Safecast Data APIs and it's  AWS infrastructure:
+
 
 ```
-[Insert infrastructure diagram here]
+![alt text](image.png)
 ```
 
 ## Deployment Process
@@ -113,3 +106,4 @@ For more detailed information on the Safecast AWS infrastructure, refer to the f
 
 - [Safecast Project Documentation](https://safecast.org/)
 - [AWS Documentation](https://docs.aws.amazon.com/)
+- [Safecast Upload APIs](https://safecast.org/)
