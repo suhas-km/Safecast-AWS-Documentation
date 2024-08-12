@@ -49,13 +49,11 @@ For a complete list of AWS services used in the Safecast project, refer to the p
 
 The following diagram illustrates the high-level architecture of the Safecast Data APIs and it's  AWS infrastructure:
 
-```
-![alt text](Infra/safecastapi.png)
-```
+![Safecast Radiation Data Upload](Infra/safecastapi.png)
 
 ## Deployment Process
 
-The deployment process for the Safecast AWS infrastructure follows a CI/CD approach. Changes to the infrastructure are managed through version control and automated deployment pipelines. The process includes steps such as:
+At Safecast we leaverage AWS ElasticBeanstalk to automatically deploy the backend Go application and handle autoscaling as well. Changes to the infrastructure are managed through version control and automated deployment pipelines. The process includes steps such as:
 
 1. Infrastructure as Code (IaC) provisioning
 2. Configuration management
