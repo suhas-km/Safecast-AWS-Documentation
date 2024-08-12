@@ -31,6 +31,8 @@ The architecture of the Safecast AWS infrastructure is designed to be scalable, 
 - Data analysis and visualization
 - Monitoring and alerting
 - Security and access control
+- Automated Grafana and Kibana dashboard updates to Slack channels
+- 
 
 ## AWS Services
 
