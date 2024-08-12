@@ -51,7 +51,8 @@ The following diagram illustrates the high-level architecture of the Safecast Da
 
 
 ```
-![alt text](image.png)
+![alt text](Infra/image.png)
+```
 ```
 
 ## Deployment Process
