@@ -49,10 +49,8 @@ For a complete list of AWS services used in the Safecast project, refer to the p
 
 The following diagram illustrates the high-level architecture of the Safecast Data APIs and it's  AWS infrastructure:
 
-
 ```
-![alt text](Infra/image.png)
-```
+![alt text](Infra/safecastapi.png)
 ```
 
 ## Deployment Process
