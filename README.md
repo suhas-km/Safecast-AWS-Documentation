@@ -1,4 +1,4 @@
-# Safecast-AWS-Documentation
+# Safecast-AWS-Documentation 
 
 # Documenting AWS Infrastructure
 
@@ -8,18 +8,19 @@ In this README.md file, we will document the AWS infrastructure for the Safecast
 
 1. [Introduction](#introduction)
 2. [Architecture Overview](#architecture-overview)
-3. [AWS Services](#aws-services)
-4. [Infrastructure Diagram](#infrastructure-diagram)
-5. [Deployment Process](#deployment-process)
-6. [Monitoring and Alerting](#monitoring-and-alerting)
-7. [Cost Optimization](#cost-optimization)
-8. [Security](#security)
-9. [Troubleshooting](#troubleshooting)
-10. [References](#references)
+3. [Services and Products](#services-and-products)
+4. [AWS Services](#aws-services)
+5. [Infrastructure Diagram](#infrastructure-diagram)
+6. [Deployment Process](#deployment-process)
+7. [Monitoring and Alerting](#monitoring-and-alerting)
+8. [Cost Optimization](#cost-optimization)
+9. [Security](#security)
+10. [Troubleshooting](#troubleshooting)
+11. [References](#references)
 
 ## Introduction
 
-The Safecast project utilizes various AWS services to collect, store, and analyze radiation data from around the world. This documentation provides an overview of the AWS infrastructure used in the project and serves as a guide for developers and open source contributors to dive deeper into the architecture design.
+The Safecast project utilizes various AWS services to collect, store, and analyze radiation data from around the world. This documentation provides an overview of the AWS infrastructure used in the project and serves as a guide for developers and administrators.
 
 ## Architecture Overview
 
@@ -40,7 +41,8 @@ The Safecast AWS infrastructure leverages several AWS services, including but no
 - Amazon RDS for managed databases
 - Amazon CloudWatch for monitoring and logging
 - Amazon IAM for access control
-
+- Elastic BeanStalk to handle Public sites and Safecast Data uploads
+- 
 For a complete list of AWS services used in the Safecast project, refer to the project's documentation.
 
 ## Infrastructure Diagram
